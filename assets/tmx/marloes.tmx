@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="12" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="terrain" tilewidth="16" tileheight="16">
+  <image source="gfx/terrain.png" width="272" height="16"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQDZgNidiDmIFI9FxBzAzEPlC9IonoYZiFBPQsee3CZT6p7YJgZimF8PiDmB2IBHOrQ1eMzE4Y5iVTLScB8dHORMQDpYwHF
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="12" height="12">
+  <properties>
+   <property name="collide" value="true"/>
+  </properties>
+  <object x="32" y="32" width="48" height="112"/>
+ </objectgroup>
+</map>
